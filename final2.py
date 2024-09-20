@@ -2,8 +2,8 @@ import tkinter as tk
 from twilio.rest import Client
 
 # Your Twilio Account SID and Auth Token
-account_sid = 'AC0e5aba029071c04cde505f3f937bb2ef'
-auth_token = '0f822571bf4a0fddab7b81b33b0a16ea'
+account_sid = 'AC0e5aba029071c4cde505f3f937bb2ef'
+auth_token = '0f822571bf4a0fdab7b81b33b0a16ea'
 client = Client(account_sid, auth_token)
 
 # Define your question-answer pairs
