@@ -93,7 +93,7 @@ def get_headache_medication():
 def send_sms(message):
     
     from_number = '+12512921323'
-    to_number = '+919941271849'
+    to_number = 'you need to mention'
 
     client.messages.create(
         to=to_number,
